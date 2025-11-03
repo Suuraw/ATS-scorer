@@ -1,7 +1,7 @@
-- Take resume as input (PDF,DOCX)
-    <!-- - Parse the resume ,get all the text from the resume and save it into a txt file . (resume.txt) -->
-    <!-- - Split the resume into sections and normalize it and then properly process it for vectorization -->
-    <!-- - get job description, parse it and store the text in a structured and normalized form -->
-    <!-- - Vectorize the resume and job description dataset for get ats score -->
-    <!-- - find ats score and return it  -->
-  - fine tune the logic
+- [x] Take resume as input (PDF, DOCX)
+  - [x] Parse the resume — extract all text and save to a txt file (e.g., resume.txt)
+  - [x] Split the resume into sections, normalize content, and prepare for vectorization
+  - [x] Get job description, parse it, and store the text in a structured, normalized form
+  - [x] Vectorize the resume and job description chunks to prepare for ATS scoring
+  - [x] Compute ATS score and return the result
+- [ ] Fine tune the logic
