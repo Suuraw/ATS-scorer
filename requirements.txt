@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+PyMuPDF
+python-docx
+python-multipart
+nltk
