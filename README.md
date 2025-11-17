@@ -2,6 +2,15 @@
 
 Lightweight FastAPI-based project to parse resumes and job descriptions (PDF), prepare chunks for embeddings, and compute an ATS-style similarity score between a resume and a job description.
 
+## 📚 Documentation
+
+**New to this project?** Start here:
+- 🚀 **[QUICK_START.md](./QUICK_START.md)** - Quick overview and setup (5 min read)
+- 🏗️ **[ARCHITECTURE.md](./ARCHITECTURE.md)** - Detailed explanation of how everything works
+- 🤖 **[LLM_INTEGRATION_GUIDE.md](./LLM_INTEGRATION_GUIDE.md)** - Step-by-step guide to add AI-powered explanations
+
+---
+
 ## Project structure
 
 - `app.py` - FastAPI application and router registration.
