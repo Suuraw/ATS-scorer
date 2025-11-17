@@ -1,6 +1,24 @@
+# Core API Framework
 fastapi
 uvicorn
+
+# PDF & Document Processing
 PyMuPDF
 python-docx
 python-multipart
+
+# Natural Language Processing
 nltk
+sentence-transformers
+torch
+
+# LLM Integration (Optional - choose one or both)
+# For OpenAI/GPT integration:
+openai>=1.0.0
+python-dotenv
+
+# For Local LLM (Ollama) integration:
+ollama>=0.1.0
+
+# For caching (optional but recommended for production)
+# redis>=4.5.0
